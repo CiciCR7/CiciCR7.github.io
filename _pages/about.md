@@ -16,7 +16,6 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-"You're not late. You are not early. You're very much on time! Stay blessed. You Are In Your Time Zone.". 
 I am a recent Master's graduate from the joint program between Hefei University and the Chinese Academy of Sciences. I was advised by Professors from both institutions. I obtained my B.S. in Computer Technology and Science from Hefei University, with a focus on Machine Learning. My expertise lies in Multimodal Large Models, Image Generation, and Object Detection. I have practical experience in applying AI to industrial scenarios such as defect identification in power systems and pest detection in agriculture. I am currently seeking R&D or engineering positions focused on the fine-tuning, deployment, and application of Multimodal and T2I models.
 <a href='https://scholar.google.com/citations?user=wKuDueAAAAJ'>google scholar citations <strong><span id='total_cit'></span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=wKuDueAAAAJ'>
 
