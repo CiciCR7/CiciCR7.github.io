@@ -22,68 +22,17 @@ I am a recent Master's graduate from the joint program between Hefei University 
 <a href='https://scholar.google.com/citations?user=wKuDueAAAAJ'>Google Scholar citations: <strong><span id='total_cit'></span></strong></a>
 
 # 🚀 Projects
-
-## AI-Powered Professional Photo Editing System
-**Technologies:** Diffusion Models, GANs, OpenCV, PyTorch  
-**Time:** 2024.12 - Present
-
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 20px 0;">
   <div style="text-align: center;">
-    <img src="assets/1.jpg" alt="Original Portrait" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <img src="assets/1.jpg" alt="Original Portrait" width="150" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
     <p style="margin-top: 8px; font-size: 14px; color: #666;">原始人像</p>
   </div>
   <div style="text-align: center;">
-    <img src="assets/joker_1.png" alt="Joker Style Transformation" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <img src="assets/joker_1.png" alt="Joker Style Transformation" width="150" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
     <p style="margin-top: 8px; font-size: 14px; color: #666;">Joker风格化效果</p>
   </div>
 </div>
 
-An AI-powered platform for generating and editing product visuals for e-commerce applications.
-
-**Key Contributions:**
-- Built workflow for product background replacement with 10+ customizable style templates
-- Implemented virtual try-on system preserving garment texture and fit with 90% user satisfaction
-- Developed color adjustment algorithms maintaining consistency across different lighting conditions
-
-## Music Visualization Agent (Lyrics-to-Visual Generation)
-**Technologies:** Qwen-57B-MoRE, Flux, CLIP, Chain-of-Thought  
-**Time:** 2024.09 - 2024.12
-
-<img src="assets/music_visualization_demo.png" alt="Music Visualization Demo" width="400" style="max-width: 100%; height: auto;">
-
-An AI agent that generates coherent visual sequences from song lyrics for music streaming platforms.
-
-**Key Contributions:**
-- Designed CoT-based pipeline for decomposing lyrics into structured visual prompts
-- Leveraged Flux model for high-quality image generation with lyrical relevance
-- Implemented CLIP-based filtering to reduce visual repetition by 40% in generated galleries
-
-## Commercial AI Portrait Studio System
-**Technologies:** Stable Diffusion, ControlNet, InstantID, LoRA  
-**Time:** 2024.03 - 2024.07
-
-<img src="assets/portrait_studio_demo.png" alt="AI Portrait Studio Demo" width="400" style="max-width: 100%; height: auto;">
-
-An end-to-end system for generating professional portrait photographs in various artistic styles.
-
-**Key Contributions:**
-- Developed 3 distinct workflow templates for different portrait categories
-- Trained 8+ style-specific LoRA adapters while maintaining subject identity
-- Optimized inference pipeline to achieve average generation time of 3 seconds per image
-
-## Multimodal Large Model for Power System Inspection
-**Technologies:** VisualGLM-6B, LoRA, MMDetection, LangChain  
-**Time:** 2023.06 - 2024.10
-
-<img src="assets/power_inspection_demo.png" alt="Power System Inspection Demo" width="400" style="max-width: 100%; height: auto;">
-
-A vision-language model specialized for power equipment defect detection and knowledge-based Q&A.
-
-**Key Contributions:**
-- Fine-tuned VisualGLM-6B on 5K+ domain-specific instruction pairs using LoRA
-- Achieved >97% accuracy on critical safety scenarios (e.g., helmet detection)
-- Built RAG-based Q&A system with reranking, achieving 73% answer relevance score
-- Optimized DINO-InternImage model for small defect detection, improving mAP by 9.7%
 
 # 📚 Publications
 
