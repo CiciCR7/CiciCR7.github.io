@@ -27,20 +27,16 @@ I am a recent Master's graduate from the joint program between Hefei University 
 **Technologies:** Diffusion Models, GANs, OpenCV, PyTorch  
 **Time:** 2024.12 - Present
 
-<img src="assets/1.jpg" alt="Professional Photo Editing Demo" width="400" style="max-width: 100%; height: auto;">
-
-A comprehensive photo enhancement system integrating traditional image processing with generative AI.
-
-**Key Contributions:**
-- Integrated Diffusion-based inpainting for complex scene completion (e.g., removing tourists, filling backgrounds)
-- Developed real-time portrait beautification pipeline achieving <30ms processing time per frame
-- Combined rule-based color correction with AI-driven style transfer for consistent aesthetic results
-
-## E-commerce Visual Content Generation Platform
-**Technologies:** Flux, Qwen-edit, LoRA, Inpainting  
-**Time:** 2024.12 - Present
-
-<img src="assets/joker_1.png" alt="E-commerce Content Generation" width="400" style="max-width: 100%; height: auto;">
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 20px 0;">
+  <div style="text-align: center;">
+    <img src="assets/1.jpg" alt="Original Portrait" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <p style="margin-top: 8px; font-size: 14px; color: #666;">原始人像</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="assets/joker_1.png" alt="Joker Style Transformation" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <p style="margin-top: 8px; font-size: 14px; color: #666;">Joker风格化效果</p>
+  </div>
+</div>
 
 An AI-powered platform for generating and editing product visuals for e-commerce applications.
 
