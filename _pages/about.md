@@ -24,11 +24,11 @@ I am a recent Master's graduate from the joint program between Hefei University 
 # 🚀 Projects
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 20px 0;">
   <div style="text-align: center;">
-    <img src="assets/1.jpg" alt="Original Portrait" width="150" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <img src="assets/1.jpg" alt="Original Portrait" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
     <p style="margin-top: 8px; font-size: 14px; color: #666;">原始人像</p>
   </div>
   <div style="text-align: center;">
-    <img src="assets/joker_1.png" alt="Joker Style Transformation" width="150" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <img src="assets/joker_1.png" alt="Joker Style Transformation" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
     <p style="margin-top: 8px; font-size: 14px; color: #666;">Joker风格化效果</p>
   </div>
 </div>
