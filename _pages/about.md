@@ -16,84 +16,110 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-I am a recent Master's graduate from the joint program between Hefei University and the Chinese Academy of Sciences. I was advised by Professors from both institutions. I obtained my B.S. in Computer Technology and Science from Hefei University, with a focus on Machine Learning. My expertise lies in Multimodal Large Models, Image Generation, and Object Detection. I have practical experience in applying AI to industrial scenarios such as defect identification in power systems and pest detection in agriculture. I am currently seeking R&D or engineering positions focused on the fine-tuning, deployment, and application of Multimodal and T2I models.
 
-<a href='https://scholar.google.com/citations?user=wKuDueAAAAJ'>google scholar citations <strong><span id='total_cit'></span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=wKuDueAAAAJ'>
+I am a recent Master's graduate from the joint program between Hefei University and the Chinese Academy of Sciences. My research focuses on **Generative AI**, particularly **Image Generation** and **Multimodal Large Models**. I have practical experience in fine-tuning, deploying, and applying diffusion models and vision-language models to industrial applications such as digital content creation, e-commerce visualization, and power system inspection. I am passionate about advancing controllable generation techniques and making generative AI more accessible in vertical domains.
 
-# 🚀 Projects 
+<a href='https://scholar.google.com/citations?user=wKuDueAAAAJ'>Google Scholar citations: <strong><span id='total_cit'></span></strong></a>
 
-## Power System Defect Identification
-**Technologies:** PyTorch, YOLOv8, ResNet, OpenCV  
-**Time:** 2023.09 - 2024.03
+# 🚀 Projects
 
-![Power System Defect Detection](assets/1.jpg)
-*A visual detection system for identifying defects in power transmission equipment, achieving 98.7% accuracy in real-time monitoring scenarios.*
-![Power System Defect Detection](/assets/joker_1.png)
-**Key Features:**
-- Developed a multi-scale defect detection model combining CNN and Transformer
-- Implemented real-time monitoring system with 30 FPS processing speed
-- Reduced false positive rate by 45% compared to traditional methods
+## AI-Powered Professional Photo Editing System
+**Technologies:** Diffusion Models, GANs, OpenCV, PyTorch  
+**Time:** 2024.12 - Present
 
-**Links:** [GitHub Repository](https://github.com/yourusername/power-defect-detection) | [Demo Video](https://youtube.com/...)
+<img src="assets/photo_editing_demo.png" alt="Professional Photo Editing Demo" width="400" style="max-width: 100%; height: auto;">
 
-## Agricultural Pest Detection System
-**Technologies:** TensorFlow, Faster R-CNN, DenseNet, Flask  
-**Time:** 2022.12 - 2023.08
+A comprehensive photo enhancement system integrating traditional image processing with generative AI.
 
-![Pest Detection System](/assets/images/pest_detection_system.jpg)
-*An AI-powered pest identification system for precision agriculture, supporting 50+ pest categories.*
+**Key Contributions:**
+- Integrated Diffusion-based inpainting for complex scene completion (e.g., removing tourists, filling backgrounds)
+- Developed real-time portrait beautification pipeline achieving <30ms processing time per frame
+- Combined rule-based color correction with AI-driven style transfer for consistent aesthetic results
 
-**Key Features:**
-- Built mobile-optimized model with 92.3% mAP on validation set
-- Developed user-friendly web interface for farmers
-- Integrated with drone imagery for large-scale field monitoring
+## E-commerce Visual Content Generation Platform
+**Technologies:** Flux, Qwen-edit, LoRA, Inpainting  
+**Time:** 2024.12 - Present
 
-## Text-to-Image Generation Model Fine-tuning
-**Technologies:** Stable Diffusion, LoRA, Hugging Face, Gradio  
-**Time:** 2023.06 - 2024.01
+<img src="assets/ecommerce_demo.png" alt="E-commerce Content Generation" width="400" style="max-width: 100%; height: auto;">
 
-![Text-to-Image Generation](/assets/images/text_to_image_results.jpg)
-*Fine-tuned Stable Diffusion models for specific artistic styles and industrial applications.*
+An AI-powered platform for generating and editing product visuals for e-commerce applications.
 
-**Key Features:**
-- Fine-tuned multiple LoRA adapters for different art styles
-- Achieved 40% faster inference with model optimization
-- Created interactive web demo using Gradio
+**Key Contributions:**
+- Built workflow for product background replacement with 10+ customizable style templates
+- Implemented virtual try-on system preserving garment texture and fit with 90% user satisfaction
+- Developed color adjustment algorithms maintaining consistency across different lighting conditions
 
-**Links:** [Hugging Face Space](https://huggingface.co/your-space) | [Model Card](https://huggingface.co/yourmodel)
+## Music Visualization Agent (Lyrics-to-Visual Generation)
+**Technologies:** Qwen-57B-MoRE, Flux, CLIP, Chain-of-Thought  
+**Time:** 2024.09 - 2024.12
 
-## Multimodal Document Understanding
-**Technologies:** CLIP, LayoutLM, Transformers, Streamlit  
-**Time:** 2023.03 - 2023.11
+<img src="assets/music_visualization_demo.png" alt="Music Visualization Demo" width="400" style="max-width: 100%; height: auto;">
 
-![Document Understanding Demo](/assets/images/document_understanding.jpg)
-*A multimodal system for extracting structured information from scanned documents and images.*
+An AI agent that generates coherent visual sequences from song lyrics for music streaming platforms.
 
-# 📚 Publications & Preprints
-- **Wang, Q.** et al. (2024). "Efficient Fine-tuning of Diffusion Models for Industrial Applications". *arXiv preprint*. [Link]
-- **Wang, Q.** et al. (2023). "Real-time Defect Detection in Power Systems Using Deep Learning". *IEEE Transactions on Industrial Informatics*. [Link]
+**Key Contributions:**
+- Designed CoT-based pipeline for decomposing lyrics into structured visual prompts
+- Leveraged Flux model for high-quality image generation with lyrical relevance
+- Implemented CLIP-based filtering to reduce visual repetition by 40% in generated galleries
+
+## Commercial AI Portrait Studio System
+**Technologies:** Stable Diffusion, ControlNet, InstantID, LoRA  
+**Time:** 2024.03 - 2024.07
+
+<img src="assets/portrait_studio_demo.png" alt="AI Portrait Studio Demo" width="400" style="max-width: 100%; height: auto;">
+
+An end-to-end system for generating professional portrait photographs in various artistic styles.
+
+**Key Contributions:**
+- Developed 3 distinct workflow templates for different portrait categories
+- Trained 8+ style-specific LoRA adapters while maintaining subject identity
+- Optimized inference pipeline to achieve average generation time of 3 seconds per image
+
+## Multimodal Large Model for Power System Inspection
+**Technologies:** VisualGLM-6B, LoRA, MMDetection, LangChain  
+**Time:** 2023.06 - 2024.10
+
+<img src="assets/power_inspection_demo.png" alt="Power System Inspection Demo" width="400" style="max-width: 100%; height: auto;">
+
+A vision-language model specialized for power equipment defect detection and knowledge-based Q&A.
+
+**Key Contributions:**
+- Fine-tuned VisualGLM-6B on 5K+ domain-specific instruction pairs using LoRA
+- Achieved >97% accuracy on critical safety scenarios (e.g., helmet detection)
+- Built RAG-based Q&A system with reranking, achieving 73% answer relevance score
+- Optimized DINO-InternImage model for small defect detection, improving mAP by 9.7%
+
+# 📚 Publications
+
+1. **Wang, Q.**, et al. (2024). "A Fine-Tuned Multimodal Large Model for Power Defect Image-Text Question-Answering." *Signal, Image and Video Processing* (SCI). [[PDF]](link-to-pdf)
+
+2. **Wang, Q.**, et al. (2024). "A Multi-degradation Modeling and Deep Joint Prediction Approach for Video Quality Assessment." (Master's Thesis)
 
 # 💻 Technical Skills
-- **Programming:** Python, C++, JavaScript, SQL
-- **ML Frameworks:** PyTorch, TensorFlow, Hugging Face, OpenMMLab
-- **Computer Vision:** OpenCV, YOLO series, Detectron2, MMDetection
-- **Multimodal Models:** CLIP, BLIP, Stable Diffusion, DALL-E
-- **Cloud & Deployment:** Docker, AWS, GCP, ONNX, TensorRT
-- **Tools:** Git, Linux, LaTeX, Jupyter, VS Code
+- **Generative AI:** Diffusion Models (Stable Diffusion, Flux), GANs, Transformer-based Generators
+- **Multimodal Models:** LLaVA, InstructBLIP, Qwen-VL, InternLM-XComposer, VisualGLM
+- **Framework & Tools:** PyTorch, Hugging Face, OpenCV, MMDetection, ComfyUI, LangChain
+- **Model Optimization:** LoRA, P-Tuning, Quantization, Model Compression, ONNX/TensorRT
+- **Programming:** Python, C++, Shell Scripting, JavaScript/TypeScript (basic)
+- **MLOps:** Docker, Git, CI/CD, Model Serving, Performance Monitoring
+
+# 📖 Education
+- **M.Eng. in Computer Technology** (2022-2025)  
+  Chinese Academy of Sciences & Hefei University (Joint Program)  
+  Thesis: Video Quality Assessment via Multi-degradation Modeling
+
+- **B.S. in Computer Science and Technology** (2018-2022)  
+  Hefei University  
+  Focus: Machine Learning & Computer Vision
+
+# 🎖 Honors & Awards
+- **First Prize**, Postgraduate Scholarship, Hefei University (2023)
+- **Second Prize**, National College Students Mathematics Competition, Anhui Division (2021)
+- **Outstanding Student Cadre**, Hefei University (2019)
 
 # 👨‍💻 Online Profiles
-[**GitHub**](https://github.com/yourusername) | 
-[**ModelScope**](https://modelscope.cn/profile/wangqiqiAHJY) | 
-[**Hugging Face**](https://huggingface.co/qqwangcr7) | 
-[**LinkedIn**](https://linkedin.com/in/yourprofile) |
-[**Blog**](https://yourblog.com)
-
-# 🎖 Honors and Awards
-- *2023.10* First Prize, Postgraduate Scholarship of Hefei University. 
-- *2021.11* Second Prize, National College Students Mathematics Competition - Anhui Division.
-- *2021.11* First Prize, Scholarship of Hefei University.
-- *2019.10* Outstanding Monitor & Life Committee Member, Hefei University.
-
-# 📖 Educations
-- *2022 – 2025*, Chinese Academy of Sciences & Hefei University (Joint Training), Master of Computer Technology, Research Interests: Multimodal Large Models, Image Generation, Object Detection
-- *2018 – 2022*, Hefei University, Bachelor of Computer Science and Technology, Research Interest: Machine Learning
+- [**GitHub**](https://github.com/yourusername)
+- [**Hugging Face**](https://huggingface.co/qqwangcr7)
+- [**Google Scholar**](https://scholar.google.com/citations?user=wKuDueAAAAJ)
+- [**LinkedIn**](https://linkedin.com/in/yourprofile)
+- **Email**: qqwang0823@163.com
