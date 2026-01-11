@@ -27,7 +27,7 @@ I am a recent Master's graduate from the joint program between Hefei University 
 **Technologies:** Diffusion Models, GANs, OpenCV, PyTorch  
 **Time:** 2024.12 - Present
 
-<img src="assets/photo_editing_demo.png" alt="Professional Photo Editing Demo" width="400" style="max-width: 100%; height: auto;">
+<img src="assets/1.jpg" alt="Professional Photo Editing Demo" width="400" style="max-width: 100%; height: auto;">
 
 A comprehensive photo enhancement system integrating traditional image processing with generative AI.
 
@@ -40,7 +40,7 @@ A comprehensive photo enhancement system integrating traditional image processin
 **Technologies:** Flux, Qwen-edit, LoRA, Inpainting  
 **Time:** 2024.12 - Present
 
-<img src="assets/ecommerce_demo.png" alt="E-commerce Content Generation" width="400" style="max-width: 100%; height: auto;">
+<img src="assets/joker_1.png" alt="E-commerce Content Generation" width="400" style="max-width: 100%; height: auto;">
 
 An AI-powered platform for generating and editing product visuals for e-commerce applications.
 
