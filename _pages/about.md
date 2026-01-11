@@ -26,9 +26,9 @@ I am a recent Master's graduate from the joint program between Hefei University 
 **Technologies:** PyTorch, YOLOv8, ResNet, OpenCV  
 **Time:** 2023.09 - 2024.03
 
-![Power System Defect Detection](/assets/images/1.jpg)
+![Power System Defect Detection](assets/1.jpg)
 *A visual detection system for identifying defects in power transmission equipment, achieving 98.7% accuracy in real-time monitoring scenarios.*
-![Power System Defect Detection](/assets/images/joker_1.jpg)
+![Power System Defect Detection](/assets/joker_1.jpg)
 **Key Features:**
 - Developed a multi-scale defect detection model combining CNN and Transformer
 - Implemented real-time monitoring system with 30 FPS processing speed
