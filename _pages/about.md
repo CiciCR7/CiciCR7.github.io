@@ -25,11 +25,9 @@ I am a recent Master's graduate from the joint program between Hefei University 
 ### 1. AI去路人功能
 **项目背景:**  
 **技术难点:** 复杂场景下的人物/物体去除与背景补全的自然度；  
-**技术栈:** 结合语义分割与Inpainting扩散模型，首先识别图像中的行人区域，然后使用条件生成模型补全被遮挡的背景，保持纹理和光照的一致性。  
+**技术栈:** 图像编辑模型，多模态模型，Lora，分割算法等。  
 **关键成果:**   
-- 在复杂城市街景测试集上，背景补全的自然度评分达4.2/5分（人工评估）
-- 处理单张1080p图像平均耗时3.8秒（NVIDIA T4 GPU）
-- 已集成到商业产品中，服务超过100家摄影工作室
+- 在1000张复杂城市街景测试集上，路人去除后，补全的自然度评分达4.5/5分（人工评估）
 
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 20px 0;">
   <div style="text-align: center;">
@@ -57,12 +55,11 @@ I am a recent Master's graduate from the joint program between Hefei University 
 
 ### 2. AI换商品背景功能
 **项目背景:**  
-**技术难点:** 复杂场景下的人物/物体去除与背景补全的自然度；  
-**技术栈:** 结合语义分割与Inpainting扩散模型，首先识别图像中的行人区域，然后使用条件生成模型补全被遮挡的背景，保持纹理和光照的一致性。  
+**技术难点:** 保持商品外貌、文字、位置不变,几乎只改变背景；  
+**技术栈:** 图像编辑模型，inpating, 分割算法，Lora, ai-toolkit。  
 **关键成果:**   
-- 在复杂城市街景测试集上，背景补全的自然度评分达4.2/5分（人工评估）
-- 处理单张1080p图像平均耗时3.8秒（NVIDIA T4 GPU）
-- 已集成到商业产品中，服务超过100家摄影工作室
+- 点击率 +18\%，几乎达到和美图工作室一样的效果  
+
 <div style="display: flex; flex-direction: column; gap: 30px; margin: 20px 0;">
   <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
     <div style="text-align: center;">
@@ -89,12 +86,11 @@ I am a recent Master's graduate from the joint program between Hefei University 
 
 ### 3. AI融图功能（Logo智能合成）
 **项目背景:**  
-**技术难点:** 复杂场景下的人物/物体去除与背景补全的自然度；  
-**技术栈:** 结合语义分割与Inpainting扩散模型，首先识别图像中的行人区域，然后使用条件生成模型补全被遮挡的背景，保持纹理和光照的一致性。  
+**技术难点:** ；  
+**技术栈:** 融图稳定性，尽可能少的损坏原图片。  
 **关键成果:**   
-- 在复杂城市街景测试集上，背景补全的自然度评分达4.2/5分（人工评估）
-- 处理单张1080p图像平均耗时3.8秒（NVIDIA T4 GPU）
-- 已集成到商业产品中，服务超过100家摄影工作室
+- 效果良好，通过验收
+
 <div style="display: flex; flex-direction: column; gap: 30px; margin: 20px 0;">
   <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
     <div style="display: flex; flex-direction: column; gap: 10px; text-align: center;">
@@ -121,11 +117,9 @@ I am a recent Master's graduate from the joint program between Hefei University 
 
 ### 4. Joker风格化效果
 **项目背景:**  
-**技术难点:** 复杂场景下的人物/物体去除与背景补全的自然度；  
-**技术栈:** 结合语义分割与Inpainting扩散模型，首先识别图像中的行人区域，然后使用条件生成模型补全被遮挡的背景，保持纹理和光照的一致性。  
+**技术难点:**   
+**技术栈:** Comfyui,sdxl,flux,kontext，inpating, instantid等。  
 **关键成果:**   
-- 在复杂城市街景测试集上，背景补全的自然度评分达4.2/5分（人工评估）
-- 处理单张1080p图像平均耗时3.8秒（NVIDIA T4 GPU）
 - 已集成到商业产品中，服务超过100家摄影工作室
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 20px 0;">
   <div style="text-align: center;">
