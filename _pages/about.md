@@ -22,6 +22,12 @@ I am a recent Master's graduate from the joint program between Hefei University 
 <a href='https://scholar.google.com/citations?user=wKuDueAAAAJ'>Google Scholar citations: <strong><span id='total_cit'></span></strong></a>
 
 # 🚀 Projects
+
+## AI-Powered Professional Photo Editing System
+**Technologies:** Diffusion Models, GANs, OpenCV, PyTorch  
+**Time:** 2024.12 - Present
+
+### Joker风格化效果
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 20px 0;">
   <div style="text-align: center;">
     <img src="assets/1.jpg" alt="Original Portrait" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
@@ -33,6 +39,24 @@ I am a recent Master's graduate from the joint program between Hefei University 
   </div>
 </div>
 
+### AI去路人效果
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 20px 0;">
+  <div style="text-align: center;">
+    <img src="assets/remove_persons_source2.png" alt="Original Scene with People" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <p style="margin-top: 8px; font-size: 14px; color: #666;">原始场景（含路人）</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="assets/remove_persons_result2.png" alt="Scene with People Removed" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <p style="margin-top: 8px; font-size: 14px; color: #666;">AI去路人效果</p>
+  </div>
+</div>
+
+**技术原理：** 结合了Inpainting扩散模型与传统图像修复算法，实现了复杂场景下的高质量人物去除与背景补全。
+
+**Key Contributions:**
+- 集成基于扩散模型的Inpainting技术，实现复杂场景的智能修复（如去路人、背景补全）
+- 开发实时人像美化管线，每帧处理时间<30ms
+- 结合规则化色彩校正与AI驱动的风格迁移，实现一致的美学效果
 
 # 📚 Publications
 
