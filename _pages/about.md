@@ -61,7 +61,7 @@ I am a recent Master's graduate from the joint program between Hefei University 
       <p style="margin-top: 8px; font-size: 14px; color: #666;">商品原始背景</p>
     </div>
     <div style="text-align: center;">
-      <img src="assets/change_bg_result.png" alt="Product with New Background 2" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <img src="assets/change_bg_result2.png" alt="Product with New Background 2" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
       <p style="margin-top: 8px; font-size: 14px; color: #666;">AI更换背景后（风格2）</p>
     </div>
   </div>
