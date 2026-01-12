@@ -77,6 +77,36 @@ I am a recent Master's graduate from the joint program between Hefei University 
   </div>
 </div>
 
+### AI融图功能（Logo智能合成）
+<div style="display: flex; flex-direction: column; gap: 30px; margin: 20px 0;">
+  <!-- 第一组 -->
+  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
+    <div style="display: flex; flex-direction: column; gap: 10px; text-align: center;">
+      <img src="assets/rongtu_source1.jpg" alt="Background Image 1" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <p style="margin-top: 8px; font-size: 14px; color: #666;">背景图像</p>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 10px; text-align: center;">
+      <img src="assets/logo1.jpg" alt="Logo Image 1" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <p style="margin-top: 8px; font-size: 14px; color: #666;">Logo图像</p>
+    </div>
+    <div style="text-align: center;">
+      <img src="assets/rongtu_result1.png" alt="Merged Result 1" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <p style="margin-top: 8px; font-size: 14px; color: #666;">AI融图效果</p>
+    </div>
+  </div>
+  <!-- 第二组 -->
+  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
+    <div style="display: flex; flex-direction: column; gap: 10px; text-align: center;">
+      <img src="assets/rongtu_source2.jpg" alt="Background Image 2" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <p style="margin-top: 8px; font-size: 14px; color: #666;">背景图像</p>
+    </div>
+ 
+    <div style="text-align: center;">
+      <img src="assets/rongtu_result2.png" alt="Merged Result 2" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <p style="margin-top: 8px; font-size: 14px; color: #666;">AI融图效果</p>
+    </div>
+  </div>
+</div>
 
 ### Joker风格化效果
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 20px 0;">
@@ -89,12 +119,6 @@ I am a recent Master's graduate from the joint program between Hefei University 
     <p style="margin-top: 8px; font-size: 14px; color: #666;">Joker风格化效果</p>
   </div>
 </div>
-**技术原理：** 结合了Inpainting扩散模型与传统图像修复算法，实现了复杂场景下的高质量人物去除与背景补全。
-
-**Key Contributions:**
-- 集成基于扩散模型的Inpainting技术，实现复杂场景的智能修复（如去路人、背景补全）
-- 开发实时人像美化管线，每帧处理时间<30ms
-- 结合规则化色彩校正与AI驱动的风格迁移，实现一致的美学效果
 
 # 📚 Publications
 
