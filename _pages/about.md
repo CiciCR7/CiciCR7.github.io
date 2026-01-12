@@ -27,17 +27,7 @@ I am a recent Master's graduate from the joint program between Hefei University 
 **Technologies:** Diffusion Models, GANs, OpenCV, PyTorch  
 **Time:** 2024.12 - Present
 
-### Joker风格化效果
-<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 20px 0;">
-  <div style="text-align: center;">
-    <img src="assets/1.jpg" alt="Original Portrait" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-    <p style="margin-top: 8px; font-size: 14px; color: #666;">原始人像</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="assets/joker_1.png" alt="Joker Style Transformation" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-    <p style="margin-top: 8px; font-size: 14px; color: #666;">Joker风格化效果</p>
-  </div>
-</div>
+
 
 ### AI去路人效果
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 20px 0;">
@@ -51,6 +41,44 @@ I am a recent Master's graduate from the joint program between Hefei University 
   </div>
 </div>
 
+### AI换商品背景效果
+<div style="display: flex; flex-direction: column; gap: 30px; margin: 20px 0;">
+  <!-- 第一组 -->
+  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+    <div style="text-align: center;">
+      <img src="assets/change_bg_source1.jpg" alt="Original Product Background 1" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <p style="margin-top: 8px; font-size: 14px; color: #666;">商品原始背景</p>
+    </div>
+    <div style="text-align: center;">
+      <img src="assets/change_bg_result1.png" alt="Product with New Background 1" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <p style="margin-top: 8px; font-size: 14px; color: #666;">AI更换背景后（风格1）</p>
+    </div>
+  </div>
+  <!-- 第二组 -->
+  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+    <div style="text-align: center;">
+      <img src="assets/change_bg_source2.jpg" alt="Original Product Background 2" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <p style="margin-top: 8px; font-size: 14px; color: #666;">商品原始背景</p>
+    </div>
+    <div style="text-align: center;">
+      <img src="assets/change_bg_result.png" alt="Product with New Background 2" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+      <p style="margin-top: 8px; font-size: 14px; color: #666;">AI更换背景后（风格2）</p>
+    </div>
+  </div>
+</div>
+
+
+### Joker风格化效果
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 20px 0;">
+  <div style="text-align: center;">
+    <img src="assets/1.jpg" alt="Original Portrait" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <p style="margin-top: 8px; font-size: 14px; color: #666;">原始人像</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="assets/joker_1.png" alt="Joker Style Transformation" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <p style="margin-top: 8px; font-size: 14px; color: #666;">Joker风格化效果</p>
+  </div>
+</div>
 **技术原理：** 结合了Inpainting扩散模型与传统图像修复算法，实现了复杂场景下的高质量人物去除与背景补全。
 
 **Key Contributions:**
