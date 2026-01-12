@@ -31,12 +31,22 @@ I am a recent Master's graduate from the joint program between Hefei University 
 
 ### AI去路人效果
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 20px 0;">
+  <!-- 第一组 -->
   <div style="text-align: center;">
     <img src="assets/remove_persons_source2.png" alt="Original Scene with People" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
     <p style="margin-top: 8px; font-size: 14px; color: #666;">原始场景（含路人）</p>
   </div>
   <div style="text-align: center;">
     <img src="assets/remove_persons_result2.png" alt="Scene with People Removed" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <p style="margin-top: 8px; font-size: 14px; color: #666;">AI去路人效果</p>
+  </div>
+  <!-- 第二组 -->
+  <div style="text-align: center;">
+    <img src="assets/remove_persons_source1.png" alt="Original Scene with People" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    <p style="margin-top: 8px; font-size: 14px; color: #666;">原始场景（含路人）</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="assets/remove_persons_result1.png" alt="Scene with People Removed" width="350" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
     <p style="margin-top: 8px; font-size: 14px; color: #666;">AI去路人效果</p>
   </div>
 </div>
