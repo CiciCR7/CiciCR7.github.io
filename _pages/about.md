@@ -21,7 +21,7 @@ I am a recent Master's graduate from the joint program between Hefei University 
 
 <a href='https://scholar.google.com/citations?user=wKuDueAAAAJ'>Google Scholar citations: <strong><span id='total_cit'></span></strong></a>
 
-# 🚀 Projects Show
+# 🚀 Projects
 
 ## AI-Powered Professional Photo Editing System
 
